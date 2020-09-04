@@ -44,7 +44,9 @@ public class DatePicker {
 //                break;
 //            }
 //        }
-        // To insert the future date
+
+
+        // To insert previous date
         
         Select year=new Select(driver.findElement(By.xpath("//select[@class='ui-datepicker-year']")));
         year.selectByVisibleText("1990");
